@@ -1,13 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-    app
-    ~~~
-
-    Entrance
-
-    :copyright: (c) 2019 by staugur.
-    :license: BSD 3-Clause, see LICENSE for more details.
-"""
 
 from flask import Flask, g, request, render_template, jsonify
 from views import front_bp, api_bp
